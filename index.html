@@ -296,11 +296,21 @@
           </div>
           <div class="section-lead">
             <p>
-              お問い合わせは、<br class="sp-only">SNSかメールでお願いいたします。
+              お問い合わせは、<br class="sp-only">下記お問い合わせフォームからお願いいたします。
             </p>
           </div>
           <div class="section-body contact">
-            <ul class="contact-list">
+            <form method="post" action="">
+                <p>お名前</p><br>
+                <input type="text" name="name" value=""><br>
+                  <p>メールアドレス</p><br>
+                <input type="text" name="email" value=""><br>
+                <p>メッセージ</p><br>
+                <textarea name="message" rows="5" cols="70"></textarea><br>
+              <input type="submit" value="送信">
+            </form>
+            
+            <!-- <ul class="contact-list">
               <li class="contact-item">
                 <a class="contact-link" href="https://twitter.com/" target="_blank"><img class="contact-image"
                     src="img/contact/icon_tw.png" alt=""></a>
@@ -310,7 +320,7 @@
                     src="img/contact/icon_fb.png" alt=""></a>
               </li>
             </ul>
-            <div class="contact-text">higoronookonaigadaiji@gmail.com</div>
+            <div class="contact-text">higoronookonaigadaiji@gmail.com</div> -->
           </div>
         </div>
       </section>
