@@ -20,6 +20,18 @@ a {
   color: #1ca9e3;
 }
 
+input {
+  display: block;
+}
+
+input[type="submit"] {
+  margin-top: 16px;
+}
+
+textarea {
+  display: block;
+}
+
 img {
   max-width: 100%;
   height: auto;
@@ -623,6 +635,7 @@ li {
   }
 
   /* Contact */
+  
   .contact-item {
     width: 40px;
     margin: 0 10px;
